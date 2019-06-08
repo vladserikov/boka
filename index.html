@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>boka</title>
+	<link href="http://allfont.ru/allfont.css?fonts=subway" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
@@ -32,17 +33,17 @@
 			<h2 class="form-title">Get Started</h2>
 			<form action="post">
 				<label>
-					I am 
+					<span>I am</span>
 					<input type="text" name="men" placeholder="Men">
 					<input type="text" name="women" placeholder="Women">
 				</label>
 				<label>
-					Looking for
+					<span>Looking for</span>
 					<button name="for_men">Men</button>
 					<button name="for_wom">Women</button>
 				</label>
-				<label>email <input type="email" name="email"></label>
-				<label>Password <input type="password" name="password"></label>
+				<label><span>email</span><input type="email" name="email" required></label>
+				<label><span>Password</span><input type="password" name="password" required></label>
 				<button type="submut">Join now</button>
 			</form>
 			<p class="form-sub">
@@ -53,11 +54,15 @@ You will receive all communication from Boka directly in your mail box.
 	</section>
 	<section>
 		<div class="photo">
-			<div class="photo1"><img src="img/img1.jpg" alt=""></div>
-			<div class="photo2"><img src="img/img2.jpg" alt=""></div>
-			<div class="photo3"><img src="img/img3.jpg" alt=""></div>
-			<div class="photo4"><img src="img/img4.jpg" alt=""></div>
-			<div class="photo5"><img src="img/img5.jpg" alt=""></div>
+			<div class="ph-block">
+				<div class="photo1"><img src="img/img1.jpg" alt=""></div>
+				<div class="photo2"><img src="img/img2.jpg" alt=""></div>
+			</div>
+			<div class="ph-block">
+				<div class="photo3"><img src="img/img3.jpg" alt=""></div>
+				<div class="photo4"><img src="img/img4.jpg" alt=""></div>
+				<div class="photo5"><img src="img/img5.jpg" alt=""></div>
+			</div>
 		</div>
 		<div class="photo-sub">
 			<h2>Tips for first Dating</h2>
@@ -70,12 +75,12 @@ You will receive all communication from Boka directly in your mail box.
 		<p class="cop">Copyright © 2017 Boka. All rights reserved. 1170pxX4000px. </p>
 		<div class="footer-menu">
 			<ul>
-				<li><a href="">About us</a></li>
-				<li><a href="">Terms</a></li>
-				<li><a href="">Privacy</a></li>
-				<li><a href="">Customer Care</a></li>
-				<li><a href="">Contact us</a></li>
-				<li><a href="">Press</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Customer Care</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="#">Press</a></li>
 			</ul>
 		</div>
 	</footer>
